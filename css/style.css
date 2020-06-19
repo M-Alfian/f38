@@ -1,0 +1,160 @@
+* {
+	
+}
+.jumbotron img {
+	width: 500px;
+	border: 5px solid #d1ccc0;
+
+}
+
+.navbar.navbar.navbar-default {
+	height: 100px;
+	background: none;
+	box-shadow: none;
+	border: none;
+	padding-top: 25px;
+	padding-left: 30px;
+	padding-right: 75px;
+}
+
+.navbar-header a.navbar-brand img {
+	height: 100px;
+	margin-top: -20px;
+
+}
+
+.navbar-nav > li > a {
+	padding-top: 10px;
+	padding-bottom: 10px
+}
+
+i.glyphicon.gliyphicon-search {
+	font-size: 20px;
+	color: rgb(184,182,182);
+}
+
+.where-to-go {
+	width: 100%;
+	background-color: #040e27;
+	margin-top: -30px;
+}
+.where-to-go h2 {
+	color: white;
+	padding-bottom: 10px;
+}
+
+
+.container {
+	width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.center {
+	padding: 15px 15%;
+}
+.input-field {
+	width: 220px;
+	float: left;
+	margin-right: 20px;
+}
+.input-field input {
+	width: 100%;
+    height: 50px;
+    background: 0 0;
+    border: 1px solid #363e52;
+    padding-left: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.input-field select {
+	width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #aab1b7;
+    font-weight: 300;
+    background: 0 0;
+    border: 1px solid #363e52;
+}	
+
+.box-btn {
+	background: #ff4a52;
+    color: #fff;
+    display: inline-block;
+    padding: 13px 39px;    
+    font-size: 16px;
+    font-weight: 500;
+    border: 0;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.fav-destination .container {
+	width:80%;
+}
+.heading {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.fav-destination .heading h2 {
+	font-weight: 400;
+    color: #040e27;
+    position: relative;
+    z-index: 0;
+    padding-bottom: 7px;   
+}
+.heading p {
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 16px;
+    color: #7a838b;
+    line-height: 28px;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+.destinations {
+	
+	display: flex;
+	flex-wrap:wrap;
+	
+}
+.destination {	
+	width: 25%;
+	margin-right:20px;
+	margin-bottom:20px; 
+	padding-top: 50px;
+	flex:auto;
+	position: relative;
+}
+.destination img {
+	width: 100%;
+	height: 300px;
+	border-radius: 5px;
+	opacity: 0.8;
+}
+.destination p {
+  position:absolute;
+  top:80%;
+  padding-left: 10%;
+  width:100%;
+  color:white;
+  font-size: 22px;
+  font-weight: 600;
+
+}
+
+.destination:hover {
+	padding-top:40px;
+	transition: 0.3s;
+}
+.destination img:hover {
+	opacity: 1;
+}
