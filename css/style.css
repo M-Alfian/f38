@@ -1,144 +1,197 @@
-* {
-	
-}
-.jumbotron img {
-	width: 500px;
-	border: 5px solid #d1ccc0;
-
-}
-
-.navbar.navbar.navbar-default {
-	height: 100px;
-	background: none;
-	box-shadow: none;
-	border: none;
-	padding-top: 25px;
-	padding-left: 30px;
-	padding-right: 75px;
-}
-
-.navbar-header a.navbar-brand img {
-	height: 100px;
-	margin-top: -20px;
-
-}
-
-.navbar-nav > li > a {
-	padding-top: 10px;
-	padding-bottom: 10px
-}
-
-i.glyphicon.gliyphicon-search {
-	font-size: 20px;
-	color: rgb(184,182,182);
-}
-
-.where-to-go {
-	width: 100%;
-	background-color: #040e27;
-	margin-top: -30px;
-}
-.where-to-go h2 {
-	color: white;
-	padding-bottom: 10px;
-}
-
 
 .container {
-	width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-.center {
-	padding: 15px 15%;
-}
-.input-field {
-	width: 220px;
-	float: left;
-	margin-right: 20px;
-}
-.input-field input {
-	width: 100%;
-    height: 50px;
-    background: 0 0;
-    border: 1px solid #363e52;
-    padding-left: 15px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    color: #fff;
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
-.input-field select {
-	width: 100%;
-    height: 50px;
-    line-height: 50px;
-    font-size: 16px;
-    color: #aab1b7;
-    font-weight: 300;
-    background: 0 0;
-    border: 1px solid #363e52;
-}	
 
-.box-btn {
-	background: #ff4a52;
-    color: #fff;
-    display: inline-block;
-    padding: 13px 39px;    
-    font-size: 16px;
-    font-weight: 500;
-    border: 0;
-    border-radius: 5px;
-    text-align: center;
-    text-transform: capitalize;
-    cursor: pointer;
+/*nav*/
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position:fixed;
+  top:0;
+  z-index:10;
 }
 
-.fav-destination .container {
-	width:80%;
+.logo {
+  width: 124px;
+  margin-top: -15px;
+  cursor: pointer;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-left p {
+  color:#fff;
+  font-size: 30px;
+  font-weight: 1000;
+  animation-name: change-color;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes change-color {
+  from {color: #fff;}
+  to {color: blue;}
+}
+
+.header-left span {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.menu-icon {
+  background-image:url("../img/nav-white3.png");
+  background-size:cover;
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+  height: 10px;
+  width: 50px;
+  
+}
+
+.header-right {
+  float: right;
+}
+
+.nav {
+  float: left;
+}
+.nav:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: all 0.5s;
+}
+
+.nav a {
+  line-height:65px;
+  padding:0 25px;
+  color:white;
+  display:block;
+  text-decoration: none;
+}
+/*tutup nav*/
+
+
+/*jumbotron*/
+
+.top-wrapper {
+  padding-top:180px;
+  padding-bottom:100px;
+  color:white;
+  background-image:url("../img/tourtravel.jpg");
+  background-size:cover;
+  height: 292px;
+}
+
+.box {
+  width: 45%;
+  float: left;  
+  margin-top: -100px;
+}
+
+.intro {
+  text-align: center;
+  background:rgba(0,0,0, 0.1);
+}
+
+.intro h1 {
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.intro h1 p {
+ font-size: 30px; 
+ font-weight: 200;
+ opacity: 1;
+}
+.intro p {
+  font-size: 20px;
+  font-weight: 100;
+  opacity: 0.8;
+}
+.where-to-go {
+  padding: 0 20px;
+}
+
+.search-wrap {
+  width: 50%;  
+  border-radius: 7px;
+  padding: 20px 40px;
+  background: #fff;
+  box-shadow: 0 15px 30px 0px rgba(0, 0, 0, 0.1);
+  float: right;
 }
 .heading {
-	text-align: center;
-	margin-bottom: 20px;
+  color:black;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
 }
-.fav-destination .heading h2 {
-	font-weight: 400;
-    color: #040e27;
-    position: relative;
-    z-index: 0;
-    padding-bottom: 7px;   
+
+.input-field {
+  border-color: rgba(0, 0, 0, 0.2);
+  margin-bottom:10px;
 }
-.heading p {
-	width: 60%;
-	margin-right: auto;
-	margin-left: auto;
-	font-size: 16px;
-    color: #7a838b;
-    line-height: 28px;
-    margin-bottom: 0;
-    font-weight: 400;
+
+.input-field input, select {
+  width: 100%;
+  height: 55px;
+  border: 1px solid black;
+}  
+
+.box-btn {
+  width: 100%;
+  height: 55px;
+  background: #ff4a52;
+  color: #fff;
+  display: inline-block;
+  padding: 13px 39px;    
+  font-size: 16px;
+  font-weight: 500;
+  border: 0;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.box-btn:hover {
+  background: green;
+}
+
+/*tutup jumbotron*/
+
+/*extra - destination*/
+.fav-destination .heading {
+  width: 50%;
+  margin: 0 auto;
 }
 .destinations {
-	
-	display: flex;
-	flex-wrap:wrap;
-	
+  display: flex;
+  flex-wrap:wrap;
+  
 }
-.destination {	
-	width: 25%;
-	margin-right:20px;
-	margin-bottom:20px; 
-	padding-top: 50px;
-	flex:auto;
-	position: relative;
+.destination {  
+  width: 25%;
+  margin-right:20px;
+  margin-bottom:20px; 
+  padding-top: 50px;
+  flex:auto;
+  position: relative;
 }
 .destination img {
-	width: 100%;
-	height: 300px;
-	border-radius: 5px;
-	opacity: 0.8;
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+  opacity: 0.8;
 }
 .destination p {
   position:absolute;
@@ -152,9 +205,28 @@ i.glyphicon.gliyphicon-search {
 }
 
 .destination:hover {
-	padding-top:40px;
-	transition: 0.3s;
+  padding-top:40px;
+  transition: 0.3s;
 }
 .destination img:hover {
-	opacity: 1;
+  opacity: 1;
 }
+
+/*tutup extra - destination*/
+
+
+/*footer*/
+footer {
+    background: #353a40;
+    color: #fff;
+    text-align: center;
+    height: 50px;
+    padding: 10px;
+
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+/*tutup footer*/

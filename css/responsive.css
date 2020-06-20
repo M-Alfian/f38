@@ -1,0 +1,68 @@
+@media (max-width: 1000px) {
+
+	.intro h1{
+		font-size: 30px;
+
+	}
+	.intro h1 p {
+		font-size: 15px;
+	}
+	
+	.intro p {
+		font-size: 10px;
+	}
+	.destination {
+		width: 40%;
+	}
+
+}
+
+
+@media (max-width: 670px) {
+
+	.menu-icon {
+		display: block;
+	}
+	.nav {
+		display: none;
+	}
+
+	.intro {
+		margin-bottom: 100px;
+	}
+  	.intro h1{
+		font-size: 30px;
+	}
+	.intro h1 p {
+		font-size: 15px;
+	}
+	
+	.intro p {
+		font-size: 10px;
+	}
+
+	.box {
+		width: 100%;
+  		margin-top: -100px;
+	}
+
+	.search-wrap {
+		width: 80%;
+		float:left;
+		text-align: center;
+		margin-top: 20px;
+	}
+
+	.fav-destination {
+		padding: 30px;
+	}
+	
+	.fav-destination .heading {
+	  width: 100%;
+	  margin: 0 auto;
+	}
+
+	.destination {
+		width: 100%;
+	}
+}
